@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Climate Change Quiz Game</h1>
+    </header>
+    <div class="container">
+        <div id="quiz">
+            <div id="question"></div>
+            <div class="options">
+                <button class="option" onclick="checkAnswer(0)"></button>
+                <button class="option" onclick="checkAnswer(1)"></button>
+                <button class="option" onclick="checkAnswer(2)"></button>
+                <button class="option" onclick="checkAnswer(3)"></button>
+            </div>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Your Score: <span id="score"></span></h2>
+            <button onclick="restartGame()">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <div class="rewind">
+        <button> <p><a href="climate change.html"><span class="goback">Go Back</span></a></p></button>
+</div>
+<footer>Made By Ali, Aditiya and Madushan</footer>
+</body>
+
+</html>
